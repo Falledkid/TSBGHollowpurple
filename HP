@@ -1,6 +1,6 @@
-local player = game.Players.LocalPlayer
-local char = player.Character
-local Hum = char:WaitForChild("Humanoid")
-local HumRP = char:WaitForChild("HumanoidRootPart")
+player = game.Players.LocalPlayer
+char = player.Character
+Hum = char:WaitForChild("Humanoid")
+HumRP = char:WaitForChild("HumanoidRootPart")
 
 print("everythingisworkingfine")
