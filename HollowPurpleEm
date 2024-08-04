@@ -1,8 +1,6 @@
--- Variables
 local player = game.Players.LocalPlayer
 local char = player.Character
 local Hum = char:WaitForChild("Humanoid")
 local HumRP = char:WaitForChild("HumanoidRootPart")
 
--- Main Code
 print("everythingisworkingfine")
