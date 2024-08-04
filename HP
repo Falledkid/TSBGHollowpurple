@@ -4,6 +4,5 @@ char = player.Character
 Hum = char:WaitForChild("Humanoid")
 HumRP = char:WaitForChild("HumanoidRootPart")
 
-print("everythingisworkingfine")
-Chat:Chat(char.Head,"Imaginary Technique: Hollow Purple")
+Chat:Chat(char:WaitForChild("Head"),"Imaginary Technique: Hollow Purple")
 HumRP.CFrame = CFrame.New(0,10,0)
